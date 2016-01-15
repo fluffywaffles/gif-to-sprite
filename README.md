@@ -13,3 +13,8 @@ frames that are extracted from the gif.
 
 This will result in {0, 1, 2, ...}.gif being placed in current working dir.
 These files correspond to frames extracted from the gif, in order.
+
+### Todo
+
+Generate CSS sprite stylesheet for example testing
+
