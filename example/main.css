@@ -1,0 +1,38 @@
+.frame {
+ background-color: transparent;
+ background-image: url(master.jpg);
+ background-repeat: no-repeat;
+ width: 390px;
+height: 390px;  }
+.frame-0 { background-position: 0 0; }
+.frame-1 { background-position: -390px 0; }
+.frame-2 { background-position: -780px 0; }
+.frame-3 { background-position: -1170px 0; }
+.frame-4 { background-position: -1560px 0; }
+.frame-5 { background-position: -1950px 0; }
+.frame-6 { background-position: -2340px 0; }
+.frame-7 { background-position: -2730px 0; }
+.frame-8 { background-position: -3120px 0; }
+.frame-9 { background-position: -3510px 0; }
+.frame-10 { background-position: -3900px 0; }
+.frame-11 { background-position: -4290px 0; }
+.frame-12 { background-position: -4680px 0; }
+.frame-13 { background-position: -5070px 0; }
+.frame-14 { background-position: -5460px 0; }
+.frame-15 { background-position: -5850px 0; }
+.frame-16 { background-position: -6240px 0; }
+.frame-17 { background-position: -6630px 0; }
+.frame-18 { background-position: -7020px 0; }
+.frame-19 { background-position: -7410px 0; }
+.frame-20 { background-position: -7800px 0; }
+.frame-21 { background-position: -8190px 0; }
+.frame-22 { background-position: -8580px 0; }
+.frame-23 { background-position: -8970px 0; }
+.frame-24 { background-position: -9360px 0; }
+.frame-25 { background-position: -9750px 0; }
+.frame-26 { background-position: -10140px 0; }
+.frame-27 { background-position: -10530px 0; }
+.frame-28 { background-position: -10920px 0; }
+.frame-29 { background-position: -11310px 0; }
+.frame-30 { background-position: -11700px 0; }
+.frame-31 { background-position: -12090px 0; }

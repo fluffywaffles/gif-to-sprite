@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Test animated gif</title>
+    <link rel='stylesheet' type='text/css' href='./main.css'>
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <div class='frame frame-0'>
+    </div>
+
+    <script>
+      var body  = document.querySelector('body')
+        , frame = document.querySelector('.frame')
+        , index = 0
+
+      var playing
+
+      function playPause () {
+        if (playing) clearInterval(playing), playing = null
+        else
+          playing = setInterval(function () {
+            frame.className = frame.className.split(' ')[0]
+            frame.className += ' frame-' + (++index % 32)
+          }, 100)
+      }
+
+      body.onkeyup = function (evt) {
+        console.log(evt)
+        if (evt.keyCode === 32)
+          playPause()
+      }
+    </script>
+  </body>
+
+</html>
