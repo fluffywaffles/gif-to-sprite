@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 from split_gif import split
 from sprite_from_images import make_spritesheet
 import argparse
