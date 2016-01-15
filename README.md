@@ -1,5 +1,7 @@
 # gif\_to\_sprite python script
 
+![Derp Horse](https://raw.githubusercontent.com/skorlir/gif-to-sprite/6f9690591316dfd1142f4bbc4c4deda5f013d856/example/derp-horse.gif)
+
 ### Usage
 
 `python gif_to_sprite.py example/derp-horse.gif example/master.jpg`
@@ -17,4 +19,3 @@ These files correspond to frames extracted from the gif, in order.
 ### Todo
 
 Generate CSS sprite stylesheet for example testing
-
