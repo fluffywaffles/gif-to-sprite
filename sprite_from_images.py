@@ -29,28 +29,29 @@ def make_spritesheet (mastername):
 
     print ( 'all images assumed to be %d by %d.' % (image_width, image_height) )
 
-    master_width = (image_width * len(images) )
+    master_width  = image_width * len(images)
     master_height = image_height
 
     print ( 'the spritesheet will by %d by %d' % (master_width, master_height) )
 
     print ( 'combining %d frames into spritesheet...' % len(images) )
     master = Image.new(
-        mode='RGBA',
-        size=(master_width, master_height),
-        color=(0,0,0,0))  # fully transparent
+        mode  = 'RGBA',
+        size  = (master_width, master_height),
+        color = (0, 0, 0, 0)  # fully transparent
+    )
 
     print ( 'blank spritesheet created' )
 
     print ( 'filling sprites...' )
     for count, image in enumerate(images):
-        location = image_width*count
-        print('\tplace frame %s at %d px...' % (count, location))
-        master.paste(image,(location,0))
+        location = image_width * count
+        print ( '\tplace frame %s at %d px...' % (count, location) )
+        master.paste(image, (location, 0))
     print ( 'spritesheet filled' )
 
     print ( 'saving spritesheet as %s...' % mastername )
-    master.save(mastername, transparency=0 )
+    master.save(mastername, transparency=0)
     print ( 'saved!' )
 
 if __name__ == '__main__':
